@@ -28,3 +28,16 @@ class Node:
     def area(self):
         """Public instance method that returns the current square area"""
         return self.__size * self.__size
+
+class SinglyLinkedList
+
+    def __init__(self):
+        """prpoerty to retrieve it"""
+    return self.__head
+    print()
+
+    @stored_insert.setter
+    """ property setter to stores """
+    def sorted_insert(self, value):
+    if type(value) is Node:
+       self.__stored_insert = value
