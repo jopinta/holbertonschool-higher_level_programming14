@@ -1,8 +1,11 @@
-class Squeare
-pass
+#!/usr/bin/python3
+"""class Square that defines a square"""
 
-x = square()
 
-x.size = 0
+class Square:
+    """class Square that defines a square"""
+    __size = None
 
-print (x.sixe)
+    def __init__(self, size):
+        """Instation with size"""
+        self.__size = size
