@@ -8,6 +8,7 @@ You are not allowed to import any module
 """
 
 def add_integer(a, b=98):
+""" function thats adds two integers."""
 
     for i in range(a, b):
     if i =! range(a, b)
