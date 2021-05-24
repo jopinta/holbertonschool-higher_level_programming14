@@ -1,9 +1,9 @@
 #!/usr/bin/python3
 """
-clase nueva
+Module for task 0
 """
 
 
 class Rectangle:
-    """empty clase"""
+    """empty class Rectangle"""
     pass
