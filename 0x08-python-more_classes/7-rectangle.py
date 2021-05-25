@@ -63,9 +63,6 @@ class Rectangle:
         else:
             return (self.__width * 2) + (self.__height * 2)
 
-    def __repr__(self):
-        """Return rectangle"""
-        return 'Rectangle({}, {})'.format(self.__width, self.__height)
 
     def __del__(self):
         """Print message when instance deleted"""
