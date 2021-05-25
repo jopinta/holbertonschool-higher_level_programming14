@@ -16,11 +16,11 @@ class Rectangle:
     @height.setter
     def height(self, value):
         """ escribir algo"""
-        if type(value) == int
+        if type(value) =! int:
+            raise TypeError("heigth must be an integer")
+        if value < 0:
+            raise ValueError("height must be >= 0")
         self.__height = value
-
-    elif
-    raise ValueError("height must be >= 0")
 
     @property
     def width(self):
@@ -30,8 +30,9 @@ class Rectangle:
     @width.setter
     def width(self, value):
         """property to set with"""
-        if type(value) != int
-        raise TypeError("must be an integer")
+        if type(value) != int:
+            raise TypeError("must be an integer")
 
-    elif value < 0:
-        raise ValueError("must be >= 0")
+        elif value < 0:
+            raise ValueError("must be >= 0")
+        self.__width = value
