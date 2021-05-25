@@ -8,9 +8,9 @@ class Rectangle:
 
     def __init__(self, width=0, height=0):
         """ function to define a rectangle"""
-        if type(with) is not int:
+        if type(width) is not int:
             raise TypeError("width must be an integer")
-        if with < 0:
+        if width < 0:
             raise ValueError("width must be >= 0")
         if type(height) is not int:
             raise TypeError("height must be an integer")
@@ -27,8 +27,8 @@ class Rectangle:
     @height.setter
     def height(self, value):
         """ escribir algo"""
-        if type(value) =! int:
-            raise TypeError("heigth must be an integer")
+        if type(value) is not int:
+            raise TypeError("height must be an integer")
         if value < 0:
             raise ValueError("height must be >= 0")
         self.__height = value
@@ -44,6 +44,6 @@ class Rectangle:
         if type(value) != int:
             raise TypeError("must be an integer")
 
-        elif value < 0:
+        if value < 0:
             raise ValueError("must be >= 0")
         self.__width = value
