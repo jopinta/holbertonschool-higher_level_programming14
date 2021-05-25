@@ -21,12 +21,12 @@ class Rectangle:
 
     @property
     def height(self):
-        """ kkksdknfks"""
+        """ property height"""
         return self.__height
 
     @height.setter
     def height(self, value):
-        """ escribir algo"""
+        """ set height"""
         if type(value) is not int:
             raise TypeError("height must be an integer")
         if value < 0:
