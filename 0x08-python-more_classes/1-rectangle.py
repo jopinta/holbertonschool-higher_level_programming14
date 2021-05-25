@@ -1,13 +1,13 @@
 #!/usr/bin/python3
 """
-esta faltando algo
+uno rectangle
 """
 
 class Rectangle:
-    """aca tambien"""
+    """aca tambien rectangle"""
 
     def __init__(self, width=0, height=0):
-        """ function to define a rectangle"""
+        """ function attributes"""
         if type(width) is not int:
             raise TypeError("width must be an integer")
         if width < 0:
@@ -35,7 +35,7 @@ class Rectangle:
 
     @property
     def width(self):
-        """puede ser"""
+        """puede ser width"""
         return self.__width
 
     @width.setter
@@ -43,7 +43,6 @@ class Rectangle:
         """property to set with"""
         if type(value) != int:
             raise TypeError("must be an integer")
-
         if value < 0:
             raise ValueError("must be >= 0")
         self.__width = value
