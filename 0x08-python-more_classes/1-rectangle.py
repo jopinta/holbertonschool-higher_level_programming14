@@ -1,7 +1,10 @@
 #!/usr/bin/python3
-
+"""
+esta faltando algo
+"""
 
 class Rectangle:
+    """aca tambien"""
 
     def __init__(self, width=0, height=0):
         """ function to define a rectangle"""
