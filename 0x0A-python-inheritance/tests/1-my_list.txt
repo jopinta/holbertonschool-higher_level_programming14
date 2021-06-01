@@ -1,7 +1,7 @@
 >>> MyList = __import__('1-my_list').Mylist
 
 
-# to print list sorted
+#============== to print list sorted
 
 >>> my_list = Mylist()
 >>> my_list.append(7)
@@ -10,3 +10,10 @@
 >>> my_list.append(0)
 >>> print(my_list)
 [9, 7, 4, 0]
+
+#==================other cases====
+
+>>> my_list = Mylist(None)
+traceback (most recent call last):
+    ...
+TypeError: 'None' is object not itrable
