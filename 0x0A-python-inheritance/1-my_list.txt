@@ -1,0 +1,13 @@
+>>> MyList = __import__('1-my_list').Mylist
+
+
+# to print list sorted
+
+>>> my_list = Mylist()
+>>> my_list.append(7)
+>>> my_list.append(9)
+>>> my_list.append(4)
+>>> my_list.append(0)
+>>> print(my_list)
+[9, 7, 4, 0]
+
