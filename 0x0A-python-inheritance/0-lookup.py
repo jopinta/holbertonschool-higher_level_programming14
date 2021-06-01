@@ -2,4 +2,6 @@
 
 """ to see all magic class"""
 
-dir()
+
+def lookup(obj):
+    return dir()
