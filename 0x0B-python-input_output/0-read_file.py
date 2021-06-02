@@ -5,5 +5,5 @@
 def read_file(filename=""):
     """ use the with statement"""
 
-    with open(filename, mode='r', encoding="utf-8") as my_file:
+    with open(filename, mode='r') as my_file:
         print(my_file.read(), end="")
