@@ -1,0 +1,24 @@
+>>> BaseGeometry = __import('7-base_geometry').BaseGeometry
+
+
+#fine
+>>> BaseGeometry.integer_validator("World", 07)
+
+
+#TypeError
+>>> BaseGeometry.integer_validator("list", [1, 2, 3])
+traceback(most recent call last):
+        ...
+TypeError: must be an integer
+
+
+>>> BaseGeometry.integer_validator("set", set([1, 2, 3, 4, 5])
+traceback(most recent call last):
+        ...
+TypeError: must be an integer
+
+
+>>> BaseGeometry.integer_validator("tuple", (1, 2))
+traceback(most recent call last):
+        ...
+TypeError: must be an integer
