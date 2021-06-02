@@ -5,5 +5,5 @@
 def read_file(filename=""):
     """ use the with statement"""
 
-with open("my_file_0.txt", 'r')
-print(my_file_0.txt.read())
+    with open("my_file_0.txt", 'r') as my_file:
+        print(my_file.read())
