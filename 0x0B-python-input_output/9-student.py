@@ -1,9 +1,9 @@
 #!/usr/bin/python3
 """ instance of an object"""
 
+
 class Student:
     """new class"""
-
 
     def __init__(self, first_name, lastname, age):
         """constructor fun"""
