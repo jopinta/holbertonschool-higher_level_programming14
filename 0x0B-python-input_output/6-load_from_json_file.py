@@ -8,4 +8,4 @@ def load_from_json_file(filename):
     """t need to manage exceptionsdon"""
 
     with open(filename, encoding='utf-8') as fp:
-        return (json.load(fp.read()))
+        return (json.load(fp))
